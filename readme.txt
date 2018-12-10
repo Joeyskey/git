@@ -11,3 +11,6 @@ git log
 git reset --hard head^
 git reset --hard ******
 git reflog
+git diff head -- ***	#查看版本库里的文件和工作区的文件的区别
+git checkout -- ***	#让文件回到最近一次git commit或git add的状态
+git reset head ***	#把暂存区的文件退回到工作区
