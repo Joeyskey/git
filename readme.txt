@@ -7,7 +7,7 @@ git add ***(文件名)
 git commit -m "修改说明"
 git status
 git diff
-git log
+git log --pretty=oneline	#后面那个--pretty=oneline可以不加
 git reset --hard head^
 git reset --hard ******
 git reflog
